@@ -11,6 +11,8 @@ This project is an HR application designed to make it easier to manage employee 
 * **Leave Management:** Allow leave requests to be recorded and tracked.
 
 ## Progress So Far
+I am practising fetching and pulling changes.
+
 
 * Created the project repository on GitHub.
 * Added the Session 1 project brief and learning log.

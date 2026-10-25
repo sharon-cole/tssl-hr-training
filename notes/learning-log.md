@@ -1,18 +1,21 @@
 # Learning Log
 
-## Three New Terms
+## Week 1 Reflection
 
-1. **Markdown (.md):** A simple way of formatting text using symbols to create headings, lists, and other elements.
+During Week 1, I learned how Git and GitHub work together to help manage project files and track changes. I practised creating a repository, adding files, checking the repository status, and reviewing my commit history. I also learned how to make changes directly on GitHub and bring those changes into my local repository.
 
-2. **File Extension:** The letters at the end of a filename that indicate its type, such as `.md` for Markdown files or `.html` for HTML files.
+## Difference Between Save, Commit, Push, Fetch, and Pull
 
-3. **Directory:** Another name for a folder used to organize files and other folders in a computer.
+* **Save:** Stores the latest changes I have made to a file on my computer.
+* **Commit:** Records changes in the history of my local Git repository.
+* **Push:** Uploads my committed changes from my computer to GitHub.
+* **Fetch:** Retrieves information about new commits on GitHub without integrating those changes into my local branch.
+* **Pull:** Downloads and integrates changes from GitHub into my local branch.
 
-## One Completed Task
+## Challenge Encountered
 
-I created a project brief for the HR application, identifying three intended users, three planned features, and one benefit of the application.
+One challenge I encountered was understanding how to bring changes made on GitHub into my local repository. Initially, I thought fetching would automatically update my local files. After practising `git fetch origin`, I learned that fetching retrieves information about remote changes without updating my working files. I then used `git pull origin main` to integrate the changes and confirmed that the new commit appeared in my local history.
 
+## What I Want to Improve
 
-## One Question
-
-What happens to an employee's leave request if the HR manager forgets to review it?
+I want to become more confident using Git commands, understanding commit history, and managing changes between my local repository and GitHub.

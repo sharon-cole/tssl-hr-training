@@ -19,3 +19,13 @@ One challenge I encountered was understanding how to bring changes made on GitHu
 ## What I Want to Improve
 
 I want to become more confident using Git commands, understanding commit history, and managing changes between my local repository and GitHub.
+
+## Week 2 — Session 1 Reflection
+
+In this session, I practised using HTML to create a simple home page for my HR training project. I learned how to structure an HTML document using elements such as `html`, `head`, `body`, `header`, `nav`, `main`, `section`, and `footer`. I also practised using headings, paragraphs, and unordered lists to organise information on a web page.
+
+I learned how to use `id` and `href` attributes to create navigation links that take users to specific sections of the same page. This helped me understand how to organise content and make a web page easier to navigate.
+
+I also gained more practice using VS Code to create files and working with Git and GitHub to manage my project.
+
+**What I want to improve:** I want to become more confident writing HTML independently and understanding how different HTML elements work together.

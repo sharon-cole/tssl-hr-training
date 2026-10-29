@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Profile Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>Employee Profile Form</h1>
+        <p>Enter the employee's information below.</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="form-preview.html" method="get">
+
+            <fieldset>
+                <legend>Employee Information</legend>
+
+                <p>
+                    <label for="employee-id">Employee ID:</label>
+                    <input type="text" id="employee-id" name="employee_id"
+                           maxlength="20" required>
+                </p>
+
+                <p>
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full_name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="department">Department:</label>
+                    <select id="department" name="department" required>
+                        <option value="">Select a department</option>
+                        <option value="Human Resources">Human Resources</option>
+                        <option value="IT">IT</option>
+                        <option value="Finance">Finance</option>
+                        <option value="Administration">Administration</option>
+                        <option value="Communication and Data Control">Communication and Data Control</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="start-date">Start Date:</label>
+                    <input type="date" id="start-date" name="start_date" required>
+                </p>
+
+                <fieldset>
+                    <legend>Employment Type</legend>
+
+                    <input type="radio" id="full-time" name="employment_type"
+                           value="Full-time" required>
+                    <label for="full-time">Full-time</label>
+
+                    <input type="radio" id="part-time" name="employment_type"
+                           value="Part-time">
+                    <label for="part-time">Part-time</label>
+
+                    <input type="radio" id="contract" name="employment_type"
+                           value="Contract">
+                    <label for="contract">Contract</label>
+                </fieldset>
+
+                <p>
+                    <label for="telephone">Telephone (optional):</label>
+                    <input type="tel" id="telephone" name="telephone">
+                </p>
+
+                <p>
+                    <label for="notes">Notes (optional):</label>
+                    <textarea id="notes" name="notes" rows="4" cols="40"></textarea>
+                </p>
+
+            </fieldset>
+
+            <p>
+                <button type="submit">Submit Employee Profile</button>
+            </p>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>HR Training Project | Week 2</p>
+    </footer>
+
+</body>
+</html>

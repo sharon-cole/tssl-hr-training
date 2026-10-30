@@ -29,3 +29,9 @@ I learned how to use `id` and `href` attributes to create navigation links that 
 I also gained more practice using VS Code to create files and working with Git and GitHub to manage my project.
 
 **What I want to improve:** I want to become more confident writing HTML independently and understanding how different HTML elements work together.
+
+## Week 2 – Session 3 Reflection
+
+During this session, I independently implemented the Emergency Contact section using text and telephone input fields. I also learned how to group related form fields using fieldsets and legends.
+
+One issue I worked on was improving the form's validation and accessibility. I used the required attribute, connected labels to their inputs and added keyboard navigation support to make the form easier to use.

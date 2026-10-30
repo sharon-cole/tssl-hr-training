@@ -24,3 +24,33 @@ I am practising fetching and pulling changes.
 1. Open the repository on GitHub.
 2. Browse the files and folders to review the project brief, learning log, and other project documents.
 3. Open individual files to read their contents.
+
+## HR Training Project
+
+This project is part of my IT training. It focuses on learning and practising basic web development skills while building a simple HR system.
+
+### Week 2 Activities
+
+During Week 2, I worked on:
+
+* Creating an HTML homepage.
+* Building an employee profile form.
+* Adding required and optional form fields.
+* Using labels, fieldsets and legends to improve accessibility.
+* Implementing form validation.
+* Adding an emergency contact section.
+* Testing the form and its navigation links.
+
+### How to Open the Project
+
+1. Open the project folder.
+2. Navigate to the `week02` folder.
+3. Open `index.html` in a web browser.
+4. Use the navigation link to access the Employee Profile Form.
+
+### Employee Profile Form
+
+The form collects basic employee information, including Employee ID, full name, email address, department, start date and employment type. It also includes optional telephone, notes and emergency contact fields.
+
+**Note:** This form is for demonstration purposes only. It does not save employee records or store submitted information.
+

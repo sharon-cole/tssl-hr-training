@@ -16,82 +16,82 @@
 
 **Expected Result:** The browser rejects an invalid email address.
 
-**Actual Result:** To be recorded.
+**Actual Result:** The browser rejected the email address and displayed a warning that an @ symbol was required.
 
-**Status:** Pending
+**Status:** PASS
 
-**Problem Discovered:** To be recorded.
+**Problem Discovered:** The email address was not in a valid format.
 
-**Fix Applied:** To be recorded.
+**Fix Applied:** None required. The browser's built-in email validation worked correctly.
 
 ## Test 3: Department Validation
 
 **Expected Result:** The browser prevents submission when no department is selected.
 
-**Actual Result:** To be recorded.
+**Actual Result:** The browser displayed a warning asking me to select an item before submitting.
 
-**Status:** Pending
+**Status:** PASS
 
-**Problem Discovered:** To be recorded.
+**Problem Discovered:** No department had been selected.
 
-**Fix Applied:** To be recorded.
+**Fix Applied:** None required. The required validation worked correctly.
 
 ## Test 4: Employment Type Radio Buttons
 
 **Expected Result:** Selecting Contract automatically deselects Permanent.
 
-**Actual Result:** To be recorded.
+**Actual Result:** When I selected Contract, Permanent became unselected. Only Contract remained selected.
 
-**Status:** Pending
+**Status:** PASS
 
-**Problem Discovered:** To be recorded.
+**Problem Discovered:** None.
 
-**Fix Applied:** To be recorded.
+**Fix Applied:** None required. The radio buttons worked correctly.
 
 ## Test 5: Label Functionality
 
 **Expected Result:** Clicking each visible label focuses or activates its corresponding input.
 
-**Actual Result:** To be recorded.
+**Actual Result:** Clicking the labels focused or activated their corresponding form controls.
 
-**Status:** Pending
+**Status:** PASS
 
-**Problem Discovered:** To be recorded.
+**Problem Discovered:** None.
 
-**Fix Applied:** To be recorded.
+**Fix Applied:** None required. The labels were properly connected to their inputs.
 
 ## Test 6: Keyboard Navigation
 
-**Expected Result:** All controls can be accessed and operated using the keyboard, with visible focus.
+**Expected Result:** All form controls can be accessed and operated using Tab, Shift + Tab and other appropriate keyboard controls, with visible focus.
 
-**Actual Result:** To be recorded.
+**Actual Result:** I was able to navigate through and operate the form controls using the keyboard.
 
-**Status:** Pending
+**Status:** PASS
 
-**Problem Discovered:** To be recorded.
+**Problem Discovered:** None.
 
-**Fix Applied:** To be recorded.
+**Fix Applied:** None required.
 
 ## Test 7: Successful Form Submission
 
-**Expected Result:** The browser navigates to form-preview.html without saving employee information.
+**Expected Result:** The browser navigates to form-preview.html after all required fields are completed. No employee record is saved.
 
-**Actual Result:** To be recorded.
+**Actual Result:** The browser successfully navigated to form-preview.html after submission.
 
-**Status:** Pending
+**Status:** PASS
 
-**Problem Discovered:** To be recorded.
+**Problem Discovered:** None.
 
-**Fix Applied:** To be recorded.
+**Fix Applied:** None required. The form submitted successfully using GET.
 
 ## Test 8: Navigation Links
 
-**Expected Result:** All links between index.html, employee-form.html and form-preview.html open the correct pages.
+**Expected Result:** All navigation links between index.html, employee-form.html and form-preview.html open the correct pages.
 
-**Actual Result:** To be recorded.
+**Actual Result:** All navigation links opened their intended pages correctly.
 
-**Status:** Pending
+**Status:** PASS
 
-**Problem Discovered:** To be recorded.
+**Problem Discovered:** None.
 
-**Fix Applied:** To be recorded.
+**Fix Applied:** None required. Navigation worked correctly.

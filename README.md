@@ -54,3 +54,16 @@ The form collects basic employee information, including Employee ID, full name, 
 
 **Note:** This form is for demonstration purposes only. It does not save employee records or store submitted information.
 
+## Week 3 – Employee Directory
+In Week 3, I created and styled an employee directory using HTML and CSS.
+
+**Activities Completed**
+1. Created a new week03 folder.
+2. Built an employee directory using semantic HTML.
+3. Added three fictional employee profiles.
+4. Connected an external CSS stylesheet.
+5. Used CSS selectors and reusable classes.
+6. Applied colours, typography, borders, padding and margins.
+7. Experimented with the CSS box model.
+8. Tested the page to ensure all employee cards displayed correctly.
+

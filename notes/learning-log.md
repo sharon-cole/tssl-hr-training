@@ -35,3 +35,17 @@ I also gained more practice using VS Code to create files and working with Git a
 During this session, I independently implemented the Emergency Contact section using text and telephone input fields. I also learned how to group related form fields using fieldsets and legends.
 
 One issue I worked on was improving the form's validation and accessibility. I used the required attribute, connected labels to their inputs and added keyboard navigation support to make the form easier to use.
+
+## Week 3 – Session 1 Reflection
+
+During this session, I learned how to style an employee directory using CSS. I used CSS selectors, colours, typography, borders, padding, margins and reusable classes to create a consistent design for all three employee cards.
+
+## Box Model Questions
+**Which property creates space inside an element's border?**
+Padding.
+
+**Which property creates space outside an element's border?**
+Margin.
+
+**Why is it useful to apply the same CSS class to multiple employee cards?**
+It allows multiple cards to share the same styling, making the design consistent and the CSS easier to maintain. I don't have to write separate styling rules for every card.

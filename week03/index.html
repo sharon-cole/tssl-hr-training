@@ -3,44 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Employee Directory | TSSL HR</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <main>
-    <header>
-        <h1>Employee Directory</h1>
-        <p>Meet our team and explore employee information.</p>
+
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">TSSL HR</a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#directory">Employee Directory</a>
+                <a href="#about">About</a>
+            </div>
+        </nav>
     </header>
 
-    <section>
-        <h2>Our Employees</h2>
+    <main id="home">
 
-        <article class="employee-card">
-            <h3>Ada Okafor</h3>
-            <p class="meta">Role: Maintenance Engineer</p>
-            <p class="meta">Department: Engineering</p>
-            <p class="meta">Email: ada@example.com</p>
-            <p class="status">Active</p>
-        </article>
+        <section class="intro">
+            <h1>Employee Directory</h1>
+            <p>Meet our team and explore employee information.</p>
+        </section>
 
-        <article class="employee-card">
-            <h3>Tunde Bakare</h3>
-            <p class="meta">Role: HR Assistant</p>
-            <p class="meta">Department: Human Resources</p>
-            <p class="meta">Email: tunde@example.com</p>
-            <p class="status">Active</p>
-        </article>
+        <section id="directory">
+            <h2>Our Employees</h2>
 
-        <article class="employee-card">
-            <h3>Amara Eze</h3>
-            <p class="meta">Role: Software Developer</p>
-            <p class="meta">Department: Information Technology</p>
-            <p class="meta">Email: amara@example.com</p>
-            <p class="status">Active</p>
-        </article>
+            <div class="employee-grid">
 
-    </section>
-</main>
+                <article class="employee-card">
+                    <h3>Ada Okafor</h3>
+                    <p class="meta">Role: Maintenance Engineer</p>
+                    <p class="meta">Department: Engineering</p>
+                    <p class="meta">Email: ada@example.com</p>
+                    <p class="meta">Work location: Abuja Office</p>
+                    <p class="status">Active</p>
+                </article>
+
+                <article class="employee-card">
+                    <h3>Tunde Bakare</h3>
+                    <p class="meta">Role: HR Assistant</p>
+                    <p class="meta">Department: Human Resources</p>
+                    <p class="meta">Email: tunde@example.com</p>
+                    <p class="meta">Work location: Lagos Office</p>
+                    <p class="status">Active</p>
+                </article>
+
+                <article class="employee-card">
+                    <h3>Amara Eze</h3>
+                    <p class="meta">Role: Software Developer</p>
+                    <p class="meta">Department: Information Technology</p>
+                    <p class="meta">Email: amara@example.com</p>
+                    <p class="meta">Work location: Abuja Office</p>
+                    <p class="status">Active</p>
+                </article>
+
+                <article class="employee-card">
+                    <h3>Daniel Musa</h3>
+                    <p class="meta">Role: Network Administrator</p>
+                    <p class="meta">Department: Information Technology</p>
+                    <p class="meta">Email: daniel.musa@example.com</p>
+                    <p class="meta">Work location: Kaduna Office</p>
+                    <p class="status status--leave">On leave</p>
+                </article>
+
+                <article class="employee-card">
+                    <h3>Chiamaka Nwosu</h3>
+                    <p class="meta">Role: Finance Officer</p>
+                    <p class="meta">Department: Finance</p>
+                    <p class="meta">Email: chiamaka@example.com</p>
+                    <p class="meta">Work location: Lagos Office</p>
+                    <p class="status">Active</p>
+                </article>
+
+                <article class="employee-card">
+                    <h3>Emmanuel Chukwuemeka</h3>
+                    <p class="meta">Role: Senior Human Resources Coordinator</p>
+                    <p class="meta">Department: Human Resources</p>
+                    <p class="meta">Email: emmanuel.chukwuemeka.employee@example.com</p>
+                    <p class="meta">Work location: Training Site</p>
+                    <p class="status">Active</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About This Directory</h2>
+            <p>
+                This is a demonstration employee directory created for TSSL training.
+                It displays fictional employee information and is designed to work
+                locally in a web browser.
+            </p>
+        </section>
+
+    </main>
+
 </body>
 </html>
+

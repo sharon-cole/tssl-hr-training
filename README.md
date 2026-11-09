@@ -67,3 +67,31 @@ In Week 3, I created and styled an employee directory using HTML and CSS.
 7. Experimented with the CSS box model.
 8. Tested the page to ensure all employee cards displayed correctly.
 
+## Week 3: Responsive Employee Directory
+
+The Week 3 project improves the employee directory using CSS Flexbox, CSS Grid and responsive media queries.
+
+### Features
+- Responsive navigation using Flexbox.
+- Employee cards arranged using CSS Grid.
+- Six fictional employee records.
+- Responsive layouts for mobile, tablet and desktop screens.
+- Employee work locations and status labels.
+- Visible keyboard focus indicators.
+- Long text wrapping to prevent horizontal overflow.
+
+### How to Open the Directory
+
+1. Open the `week03` folder.
+2. Locate `index.html`.
+3. Open it in a web browser.
+
+The main employee directory uses local HTML and CSS files and works without an internet connection.
+
+### Tailwind CSS Comparison
+
+A separate `tailwind-demo.html` file was created to demonstrate Tailwind CSS utility classes. It is not part of the main employee directory.
+
+### Project Limitations
+
+This is a static demonstration project. It does not search employee records, save employee data or provide user account access.

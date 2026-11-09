@@ -49,3 +49,19 @@ Margin.
 
 **Why is it useful to apply the same CSS class to multiple employee cards?**
 It allows multiple cards to share the same styling, making the design consistent and the CSS easier to maintain. I don't have to write separate styling rules for every card.
+
+## Week 3: Responsive Employee Directory
+
+During Week 3, I learned how to make an employee directory responsive using CSS Flexbox, CSS Grid and media queries.
+
+I used Flexbox to arrange the navigation links and CSS Grid to display employee cards in different column layouts depending on the screen width.
+
+I learned that Flexbox is useful for arranging items in one direction, while Grid is useful for creating rows and columns.
+
+I also learned how media queries allow a webpage to adjust its layout at different screen sizes.
+
+I tested the directory at different viewport widths, checked keyboard navigation, tested 200% zoom and confirmed that the main directory works offline.
+
+I also experimented with Tailwind CSS and learned how utility classes such as `p-5`, `gap-4` and `md:grid-cols-2` affect webpage styling and layout.
+
+Overall, this exercise improved my understanding of responsive web design and accessibility.

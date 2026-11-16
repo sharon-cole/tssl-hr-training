@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Resource Directory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Course Resource Directory</h1>
+        <p>Keep track of your learning resources in one place.</p>
+    </header>
+
+    <main>
+
+        <section class="resource-section">
+            <h2>Learning Resources</h2>
+            <p>Total Resources: <span id="resource-count">0</span></p>
+
+            <p id="empty-message">No resources have been added yet.</p>
+
+            <div id="resource-list"></div>
+        </section>
+
+        <section class="form-section">
+            <h2>Add a New Resource</h2>
+
+            <form id="resource-form">
+
+                <div>
+                    <label for="title">Resource Title</label>
+                    <input type="text" id="title" name="title">
+                </div>
+
+                <div>
+                    <label for="category">Category</label>
+                    <input type="text" id="category" name="category">
+                </div>
+
+                <div>
+                    <label for="platform">Platform</label>
+                    <input type="text" id="platform" name="platform">
+                </div>
+
+                <div>
+                    <label for="difficulty">Difficulty</label>
+                    <select id="difficulty" name="difficulty">
+                        <option value="">Select difficulty</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select>
+                </div>
+
+                <button type="submit">Add Resource</button>
+
+            </form>
+
+            <p id="feedback" aria-live="polite"></p>
+        </section>
+
+    </main>
+
+</body>
+</html>
